@@ -4,7 +4,7 @@
   height:100vh;
   margin:0px;
   position: relative;
-  z-index: 1;
+
 }
 .overlay{
 
@@ -13,7 +13,7 @@
   margin:0px;
   text-align: center;
   position: absolute;
-  z-index: 2;
+
 }
 body {
   margin: 0px;
@@ -24,7 +24,7 @@ html {
 .overlay #title {
   font-size: 10vw;
   vertical-align: middle;
-  margin-top: 30vh;
+  margin-top: 25vh;
   color: rgba(255, 255, 255, 1);
   font-family: Anton;
   margin-bottom:0px;
@@ -65,8 +65,11 @@ html {
   border-radius: 50%;
   margin-bottom:0px;
 }
-.overlay #tabFooter{
-  margin-bottom:0px;
+.header{
+  
   height:2.5vw;
   background-color:white;
+  position: fixed;
+  top:0;
+  width:100vw;
 }
