@@ -26,6 +26,19 @@
       function imgunhover() {
         document.getElementById('buttonImg').setAttribute('src', 'Images/arrowDownWhite.png');
       }
+      window.onload = function(){
+      var button = document.getElementById('mainButton');
+      var unhover = button.addEventListener('mouseout');
+      var hover = button.addEventListener('mouseover');
+
+      if (hover = true){
+        imghover();
+      } else{
+        imgunhover();
+      }
+
+      }
+
     </script>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div id = "navbar-styling" class="container-fluid">
