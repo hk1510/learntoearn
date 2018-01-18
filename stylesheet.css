@@ -22,54 +22,121 @@ html {
   margin: 0px;
 }
 .overlay #title {
-  font-size: 10vw;
   vertical-align: middle;
+  margin-left:auto;
+  margin-right:auto;
   margin-top: 25vh;
-  color: rgba(255, 255, 255, 1);
-  font-family: Anton;
   margin-bottom:0px;
   padding-bottom: 0px;
+  width: 50vmax;
 }
 .overlay #subtitle{
   font-family: 'Fjalla One', sans-serif;
-  font-size: 3vw;
+  font-size: 3vmax;
   color: white;
 
   background-color: black;
-  padding-top:1vw;
-  padding-bottom:1vw;
+  padding-top:1vmax;
+  padding-bottom:1vmax;
 }
 #_1{
-  border-top: 1vw solid black;
-  border-bottom: 1vw solid black;
-  padding-left: 1vw;
+  border-top: 1vmax solid black;
+  border-bottom: 1vmax solid black;
+  padding-left: 1vmax;
 
   color: rgba(0,0,0,1);
 }
 #_2{
-  border-top: 1vw solid black;
-  border-bottom: 1vw solid black;
-  border-left: 1vw solid black;
-  border-right: 1vw solid black;
+  border-top: 1vmax solid black;
+  border-bottom: 1vmax solid black;
+  border-left: 1vmax solid black;
+  border-right: 1vmax solid black;
   background-color: black;
 }
 #container{
-  width:55vw;
+  width:54vmax;
   margin-left:auto;
   margin-right:auto;
+
 }
+
 .overlay button{
-  width:5vw;
-  height: 5vw;
-  background-color:white;
-  border-radius: 50%;
-  margin-bottom:0px;
+  width:5vmax;
+  height: 5vmax;
+  background-color:black;
+  border-radius: 5%;
+  margin-top:10vh;
+  border:transparent;
 }
-.header{
-  
-  height:2.5vw;
+
+.overlay button img{
+  width:2vmax;
+  height: 2vmax;
+  margin-left:auto;
+  margin-right:auto;
+  padding:none;
+  vertical-align:center;
+}
+
+.overlay button:hover{
+  transition-duration: 1s;
   background-color:white;
-  position: fixed;
-  top:0;
-  width:100vw;
+
+}
+
+#mainButton{
+
+}
+
+#mainButton:hover{
+  background-image: url('Images/arrowDown.png');
+}
+
+.navbar-toggle {
+  background-color:none;
+  border:none;
+}
+
+.navbar-toggle :hover{
+  background-color:none;
+  border:none;
+}
+
+.navbar-toggle :disabled{
+  background-color:none;
+  border:none;
+}
+
+.navbar-inverse{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: transparent;
+}
+
+.navbar-styling{
+  border-bottom:5px solid white;
+}
+
+.navbar-collapse{
+  border:none;
+}
+
+#setStyleBrand a{
+  color:white;
+  font-family: Anton;
+}
+
+#setStyleBrand a span{
+  color:black;
+}
+
+#buttonStyle button{
+  background-color: transparent;
+}
+
+#buttonStyle button:hover{
+  background-color: transparent;
+}
+
+.navbar-collapse.collapse.in {
+  margin-top: 0px;
 }

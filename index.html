@@ -8,32 +8,68 @@
     <meta name="author" content="Harshil Kotamreddy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <meta http-equiv="Pragma" content="no-cache"/>
     <meta http-equiv="Expires" content="0"/>
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="stylesheet.css" rel="stylesheet">
-    <script>
 
-    </script>
   </head>
   <body>
+    <script>
+      function imghover() {
+        document.getElementById('buttonImg').setAttribute('src', 'Images/arrowDown.png');
+      }
+      function imgunhover() {
+        document.getElementById('buttonImg').setAttribute('src', 'Images/arrowDownWhite.png');
+      }
+    </script>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div id = "navbar-styling" class="container-fluid">
+        <div class="navbar-header">
+          <div id = "setStyleBrand">
+            <a class="navbar-brand" href="#"><span>LEARN</span> to EARN</a>
+          </div>
+          <div id = "buttonStyle">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
 
     <div class = "mainimage">
       <div class = "overlay">
 
-          <p id="title"> <span id="_1">LEARN</span><span id="_2">to EARN</span> </p>
+          <img id="title" src="Images/Logo.png"></img>
         <div id = "container">
-          <p id="subtitle">Learn where, when and how to get a job.</p>
+
         </div>
-        <button></button>
+        <button id="mainButton">
+          <img  src="Images/arrowDownWhite.png" id="buttonImg"></img>
+        </button>
 
 
       </div>
     </div>
 
     <p>bleh</p>
-    <div class="header"></div>
+
   </body>
 
 
