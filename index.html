@@ -20,25 +20,18 @@
   </head>
   <body>
     <script>
+      window.onload = function(){
+
+      }
+
       function imghover() {
         document.getElementById('buttonImg').setAttribute('src', 'Images/arrowDown.png');
+        console.log('hover');
       }
       function imgunhover() {
         document.getElementById('buttonImg').setAttribute('src', 'Images/arrowDownWhite.png');
+        console.log('unhover');
       }
-      window.onload = function(){
-      var button = document.getElementById('mainButton');
-      var unhover = button.addEventListener('mouseout');
-      var hover = button.addEventListener('mouseover');
-
-      if (hover = true){
-        imghover();
-      } else{
-        imgunhover();
-      }
-
-      }
-
     </script>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div id = "navbar-styling" class="container-fluid">
@@ -73,8 +66,10 @@
         <div id = "container">
 
         </div>
-        <button id="mainButton">
-          <img  src="Images/arrowDownWhite.png" id="buttonImg"></img>
+        <button onmouseover="imghover();" onmouseout="imgunhover();" id="mainButton">
+          <div id="buttonImgContainer">
+            <img src="Images/arrowDownWhite.png" id="buttonImg"></img>
+          </div>
         </button>
 
 

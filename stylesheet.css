@@ -64,7 +64,7 @@ html {
   width:5vmax;
   height: 5vmax;
   background-color:black;
-  border-radius: 5%;
+  border-radius: 10%;
   margin-top:10vh;
   border:transparent;
 }
@@ -72,24 +72,16 @@ html {
 .overlay button img{
   width:2vmax;
   height: 2vmax;
-  margin-left:auto;
-  margin-right:auto;
-  padding:none;
-  vertical-align:center;
+}
+
+#buttonImgContainer{
+  text-align:center;
 }
 
 .overlay button:hover{
   transition-duration: 1s;
   background-color:white;
 
-}
-
-#mainButton{
-
-}
-
-#mainButton:hover{
-  background-image: url('Images/arrowDown.png');
 }
 
 .navbar-toggle {
@@ -135,8 +127,4 @@ html {
 
 #buttonStyle button:hover{
   background-color: transparent;
-}
-
-.navbar-collapse.collapse.in {
-  margin-top: 0px;
 }
