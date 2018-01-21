@@ -86,7 +86,6 @@ html {
 .overlay button:hover{
   transition-duration: 1s;
   background-color:white;
-
 }
 
 .navbar-toggle {
@@ -139,7 +138,7 @@ html {
 }
 
 #buttonImg {
-  display:inline-block;
+  display:block;
 }
 
 .img-responsive{
