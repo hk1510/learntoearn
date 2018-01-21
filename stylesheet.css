@@ -67,6 +67,7 @@ html {
   border-radius: 10%;
   margin-top:10vh;
   border:transparent;
+  text-align:center;
 }
 
 .overlay button img{
