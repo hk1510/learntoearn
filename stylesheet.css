@@ -60,7 +60,7 @@ html {
 
 }
 
-.overlay button{
+#mainButton{
   width:5vmax;
   height: 5vmax;
   background-color:black;
@@ -68,16 +68,17 @@ html {
   margin-top:10vh;
   border:transparent;
   text-align:center;
-}
-
-.overlay button img{
-  width:2vmax;
-  height: 2vmax;
   margin-left:auto;
   margin-right:auto;
 }
 
-#buttonImgContainer{
+#mainButton img{
+  width:2vmax;
+  height: 2vmax;
+  padding:auto;
+}
+
+#mainButton{
   text-align:center;
 }
 
