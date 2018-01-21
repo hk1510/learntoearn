@@ -128,3 +128,7 @@ html {
 #buttonStyle button:hover{
   background-color: transparent;
 }
+
+#navbar-text li{
+  color:white;
+}
