@@ -69,13 +69,15 @@ html {
   border:transparent;
   text-align:center;
   margin-left:auto;
-  margin-right:auto;
+  margin-right:auto
 }
-
+#mainButton:hover{
+  background-color:White;
+}
 #mainButton img{
   width:2vmax;
   height: 2vmax;
-  padding:auto;
+  margin:auto;
 }
 
 #mainButton{
