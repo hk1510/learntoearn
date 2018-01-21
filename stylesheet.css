@@ -72,7 +72,6 @@ html {
 .overlay button img{
   width:2vmax;
   height: 2vmax;
-  margin:auto;
 }
 
 #buttonImgContainer{
@@ -132,4 +131,8 @@ html {
 
 #navbar-text li{
   color:white;
+}
+
+#buttonimg {
+  display:inline-block;
 }
