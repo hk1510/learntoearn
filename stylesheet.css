@@ -127,6 +127,8 @@ html {
 
 #buttonImg {
   display:inline-block;
+  -webkit-width:2vmax;
+  -webkit-height:2vmax;
   width:2vmax;
   height:2vmax;
   margin:0px;
