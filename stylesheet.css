@@ -30,34 +30,11 @@ html {
   padding-bottom: 0px;
   width: 50vmax;
 }
-.overlay #subtitle{
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 3vmax;
-  color: white;
 
-  background-color: black;
-  padding-top:1vmax;
-  padding-bottom:1vmax;
-}
-#_1{
-  border-top: 1vmax solid black;
-  border-bottom: 1vmax solid black;
-  padding-left: 1vmax;
-
-  color: rgba(0,0,0,1);
-}
-#_2{
-  border-top: 1vmax solid black;
-  border-bottom: 1vmax solid black;
-  border-left: 1vmax solid black;
-  border-right: 1vmax solid black;
-  background-color: black;
-}
 #container{
   width:54vmax;
   margin-left:auto;
   margin-right:auto;
-
 }
 
 #mainButton{
