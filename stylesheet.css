@@ -4,10 +4,10 @@
   height:100vh;
   margin:0px;
   position: relative;
+  background-attachment: fixed;
 
 }
 .overlay{
-
   height:100vh;
   width:100vw;
   margin:0px;
