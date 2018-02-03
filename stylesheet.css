@@ -1,4 +1,4 @@
-.mainimage {
+ .mainimage {
   background-image: url(https://4.bp.blogspot.com/-MvC-b7NP2og/VO3_OvdON0I/AAAAAAABduU/8fUplha1Sdo/s0/Sunset_at_Tiergarten_UHD.jpg);
   background-size:cover;
   height:100vh;
@@ -17,10 +17,13 @@
 }
 body {
   margin: 0px;
+  overflow-x: hidden;
 }
+
 html {
   margin: 0px;
 }
+
 .overlay #title {
   vertical-align: middle;
   margin-left:auto;
@@ -110,4 +113,12 @@ html {
   height:2vmax;
   margin:0px;
   padding:0px;
+}
+
+#secondbackground{
+  background-image: url(https://wallpapersite.com/images/wallpapers/reine-4000x2662-lake-mountains-norway-4k-4899.jpg);
+  background-size:cover;
+  height:100vh;
+  margin:0px;
+  background-attachment: fixed;
 }
