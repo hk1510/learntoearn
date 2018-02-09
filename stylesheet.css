@@ -193,7 +193,7 @@ html {
 }
 
 .learnlink2{
-  padding: 1vmax 3vmax 2vmax 3vmax;
+  padding: 2vmax 3vmax 2vmax 3vmax;
   background-color:black;
   position:relative;
   margin-left:auto;
@@ -279,4 +279,6 @@ html {
   #title span{
     border: transparent;
   }
+
+
 }
