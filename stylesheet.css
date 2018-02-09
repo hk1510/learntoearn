@@ -260,6 +260,7 @@ html {
 
   #title span{
     border: 15px solid black;
+    padding-bottom: 2vmax;
   }
 
 }
@@ -277,7 +278,7 @@ html {
   }
 
   #title span{
-    border: transparent;
+    padding-bottom: 2vmax;
   }
 
 
