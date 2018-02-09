@@ -42,12 +42,6 @@ html {
   color:black;
 }
 
-#title span{
-  padding-bottom:3vmax;
-  padding-right:3vmax;
-  padding-left:3vmax;
-  border: 20px solid black;
-}
 
 
 #container{
@@ -210,6 +204,19 @@ html {
   transition-duration: 1s;
 }
 
+#footer{
+  height: 2vmax;
+  background-color:black;
+}
+
+#footer p{
+  text-align: center;
+  padding-top:.5vmax;
+  color:white;
+  font-size:15px;
+  font-family: 'Etna';
+}
+
 @media (max-width: 1800px) {
 
   #title{
@@ -258,10 +265,6 @@ html {
     font-size:8em;
   }
 
-  #title span{
-    border: 15px solid black;
-    padding-bottom:0;
-  }
 
 }
 
@@ -277,9 +280,6 @@ html {
     padding-bottom:0px;
   }
 
-  #title span{
-    padding-bottom: 0;
-  }
 
 
 }
