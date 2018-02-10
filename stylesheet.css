@@ -138,6 +138,9 @@ html {
   text-align:center;
   min-height:100%;
   -webkit-min-height:100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 #secondbackground{
