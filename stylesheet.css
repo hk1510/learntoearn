@@ -128,10 +128,10 @@ html {
 }
 
 .backgroundimage{
-  background-size:200vh 112vh;
+  background-size:cover;
   height:100vh;
   margin:0px;
-  background-attachment: fixed;
+  background-attachment:fixed;
   background-position:center center;
   background-repeat: no-repeat;
   position:relative;
@@ -306,4 +306,10 @@ html {
   .subtopic{
     font-size:3em;
   }
+}
+
+@media screen and (max-width: 600px) {
+   .backgroundimage {
+        background-attachment: scroll;
+    }
 }
