@@ -313,4 +313,7 @@ html {
    .backgroundimage {
         background-attachment: scroll;
     }
+    .mainimage {
+      background-attachment: scroll;
+    }
 }
