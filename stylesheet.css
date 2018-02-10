@@ -128,11 +128,12 @@ html {
 }
 
 .backgroundimage{
-  background-size:cover;
+  background-size:auto;
   height:100vh;
   margin:0px;
   background-attachment: fixed;
   background-position:center;
+  background-repeat: no-repeat;
   position:relative;
   text-align:center;
   min-height:100%;
@@ -147,7 +148,7 @@ html {
 }
 
 #fourthbackground{
-  background-image: url(https://c.pxhere.com/photos/8b/db/book_white_paper_stack_pile-59838.jpg!d);
+  background-image: url(https://wallpaperscraft.com/image/paper_colored_stack_11151_1920x1080.jpg);
 }
 
 #fifthbackground{
