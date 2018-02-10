@@ -128,7 +128,7 @@ html {
 }
 
 .backgroundimage{
-  background-size:contain;
+  background-size:200vh 112vh;
   height:100vh;
   margin:0px;
   background-attachment: fixed;
@@ -137,9 +137,6 @@ html {
   position:relative;
   text-align:center;
   min-width:100%;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
 }
 
 #secondbackground{
