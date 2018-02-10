@@ -128,15 +128,16 @@ html {
 }
 
 .backgroundimage{
-  background-size:auto;
+  background-size:cover;
   height:100vh;
   margin:0px;
   background-attachment: fixed;
-  background-position:center;
+  background-position:center center;
   background-repeat: no-repeat;
   position:relative;
   text-align:center;
   min-height:100%;
+  -webkit-min-height:100%;
 }
 
 #secondbackground{
