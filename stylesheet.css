@@ -132,6 +132,8 @@ html {
   height:100vh;
   margin:0px;
   background-attachment: fixed;
+  background-position:center;
+  position:relative;
   text-align:center;
 }
 
@@ -156,10 +158,11 @@ html {
 }
 
 .subtopic{
-  font-size:10vmax;
-  margin-top:0px;
-  padding:0px;
+  font-size:10em;
   font-family: 'Etna';
+  position:relative;
+  margin-top:0px;
+  top: 20%;
 }
 
 .navlink{
@@ -179,12 +182,13 @@ html {
 .learnlink{
   padding: 2vmax 3vmax 2vmax 3vmax;
   background-color:white;
-  position:relative;
-  margin-left:auto;
-  margin-right:auto;
   font-size: 2vmax;
   font-family: 'Etna';
   color:black;
+  position:absolute;
+  top:50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
 }
 
 .learnlink:hover{
@@ -197,12 +201,13 @@ html {
 .learnlink2{
   padding: 2vmax 3vmax 2vmax 3vmax;
   background-color:black;
-  position:relative;
-  margin-left:auto;
-  margin-right:auto;
   font-size: 2vmax;
   font-family: 'Etna';
   color:white;
+  position:absolute;
+  top:50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
 }
 
 .learnlink2:hover{
@@ -225,6 +230,7 @@ html {
   font-family: 'Etna';
   padding:.5vmax;
 }
+
 
 @media (max-width: 1800px) {
 
@@ -274,6 +280,10 @@ html {
     font-size:8em;
   }
 
+  .subtopic{
+    font-size:8em;
+  }
+
 
 }
 
@@ -281,11 +291,17 @@ html {
   #title{
     font-size: 5em;
   }
+  .subtopic{
+    font-size:5em;
+  }
 }
 
 @media (max-width: 770px) {
   #title{
-    font-size: 4em;
+    font-size: 3em;
     padding-bottom:0px;
+  }
+  .subtopic{
+    font-size:3em;
   }
 }
