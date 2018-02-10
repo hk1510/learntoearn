@@ -1,5 +1,8 @@
 window.onload = function(){
-
+  document.querySelector('#mainButton').addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector('#secondbackground').scrollIntoView({ behavior: 'smooth' });
+        });
 }
 
 function imghover() {
