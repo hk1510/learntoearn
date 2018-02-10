@@ -136,11 +136,10 @@ html {
   background-repeat: no-repeat;
   position:relative;
   text-align:center;
-  min-height:100%;
-  -webkit-min-height:100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  min-width:100%;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
 }
 
 #secondbackground{
