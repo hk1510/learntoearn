@@ -128,17 +128,36 @@ html {
 }
 
 .backgroundimage{
+  background-size:200vh 112vh;
   height:100vh;
   margin:0px;
+  background-attachment: fixed;
+  background-position:center center;
+  background-repeat: no-repeat;
   position:relative;
   text-align:center;
-  background-attachment: fixed !important;
+  min-width:100%;
 }
 
-.backstretch{
-    background-attachment : fixed !important;
+#secondbackground{
+  background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HPOKFbR/female-hands-typing-computer-keyboard-using-desktop-computers-for-work-or-study-1920x1080-1080p-hd-format_mjyb9w38__F0000.png);
 }
 
+#thirdbackground{
+  background-image: url(https://mcgeepharma.com/wp-content/uploads/2017/07/13-13-things-personal-organizers-wont-tell-you-papers.jpg);
+}
+
+#fourthbackground{
+  background-image: url(https://wallpaperscraft.com/image/paper_colored_stack_11151_1920x1080.jpg);
+}
+
+#fifthbackground{
+  background-image: url(https://media.vogue.in/wp-content/uploads/2017/08/How-to-organise-your-closet.jpg);
+}
+
+#sixthbackground{
+  background-image: url(http://cdn.skim.gs/images/v1/msi/zvsxn8cy52k2dfj0elhm/sneaky-ways-illegal-interview-questions-are-rephrased);
+}
 
 .subtopic{
   font-size:10em;
