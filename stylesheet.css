@@ -1,6 +1,20 @@
+* {
+  color:black;
+}
+
 @font-face {
-font-family: "Etna";
-src: url("Fonts/etna-free-font.otf") format("opentype");
+    font-family: "Etna";
+    src: url(Fonts/etna-free-font.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Archivo Bold";
+  src: url(Fonts/ArchivoNarrow-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Archivo Regular";
+    src: url(Fonts/ArchivoNarrow-Regular.ttf) format("truetype");
 }
 
 
@@ -34,7 +48,9 @@ body {
   padding:0;
   overflow-x: hidden;
   overflow-y: scroll;
+  background-color:white;
   -webkit-overflow-scrolling: touch;
+  background-repeat : repeat;
 }
 
 html {
@@ -243,9 +259,12 @@ html {
 }
 
 #footer{
+  position:relative;
   background-color:black;
   height:30px;
   overflow:hidden;
+  margin-bottom: 0px;
+  margin-top:auto;
 }
 
 #footer p{
@@ -258,7 +277,7 @@ html {
 
 .subimage{
   background-size:cover;
-  height:50vh;
+  height:30vh;
   margin:0px;
   position: relative;
   background-attachment: fixed;
@@ -269,6 +288,64 @@ html {
   min-height:100%;
 }
 
+.mainbody{
+  margin-left : 10%;
+  margin-right : 10%;
+  margin-top: 5%;
+  background-color:white;
+}
+
+.subtitle{
+  font-family: 'Archivo Bold';
+  font-size: 4em;
+  padding-left: 5%;
+}
+
+.paragraph{
+  font-family: 'Archivo Regular';
+  font-size: 2em;
+  padding-left : 5%;
+}
+
+.sub-subtitle{
+  font-family: 'Archivo Bold';
+  font-size: 3.5em;
+  padding-left: 10%;
+  padding-top: 2%;
+}
+
+hr {
+    margin-top: 3em;
+    border-style: groove;
+    margin-bottom: 3em;
+}
+
+.linkimage{
+  width:80%;
+  padding-top:2%;
+}
+
+.imageholder{
+  display: inline-block;
+  width: 400px;
+  height:100px;
+  vertical-align: middle;
+  border-right: 1px solid black;
+}
+
+.imageholder:hover{
+  transition-duration: .5s;
+  -moz-box-shadow: 6px 6px 10px 6px #888888;
+  -webkit-box-shadow: 6px 6px 10px 6px #888888;
+  -o-box-shadow: 6px 6px 10px 6px #888888;
+  box-shadow: 6px 6px 10px 6px #888888;
+  border-right:none;
+}
+
+.imagebox{
+  text-align: center;
+  margin-top: 50px;
+}
 
 @media (max-width: 1800px) {
 
