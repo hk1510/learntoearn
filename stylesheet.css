@@ -11,6 +11,8 @@ src: url("Fonts/etna-free-font.otf") format("opentype");
   margin:0px;
   position: relative;
   background-attachment: fixed;
+  background-position:center center;
+  background-repeat: no-repeat;
   text-align: center;
   position: relative;
   min-height:100%;
@@ -144,7 +146,15 @@ html {
   background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HPOKFbR/female-hands-typing-computer-keyboard-using-desktop-computers-for-work-or-study-1920x1080-1080p-hd-format_mjyb9w38__F0000.png);
 }
 
+#jobimage{
+  background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HPOKFbR/female-hands-typing-computer-keyboard-using-desktop-computers-for-work-or-study-1920x1080-1080p-hd-format_mjyb9w38__F0000.png);
+}
+
 #thirdbackground{
+  background-image: url(https://mcgeepharma.com/wp-content/uploads/2017/07/13-13-things-personal-organizers-wont-tell-you-papers.jpg);
+}
+
+#resumeimage{
   background-image: url(https://mcgeepharma.com/wp-content/uploads/2017/07/13-13-things-personal-organizers-wont-tell-you-papers.jpg);
 }
 
@@ -152,11 +162,23 @@ html {
   background-image: url(https://wallpaperscraft.com/image/paper_colored_stack_11151_1920x1080.jpg);
 }
 
+#applicationimage{
+  background-image: url(https://wallpaperscraft.com/image/paper_colored_stack_11151_1920x1080.jpg);
+}
+
 #fifthbackground{
   background-image: url(https://media.vogue.in/wp-content/uploads/2017/08/How-to-organise-your-closet.jpg);
 }
 
+#wearimage{
+  background-image: url(https://media.vogue.in/wp-content/uploads/2017/08/How-to-organise-your-closet.jpg);
+}
+
 #sixthbackground{
+  background-image: url(http://cdn.skim.gs/images/v1/msi/zvsxn8cy52k2dfj0elhm/sneaky-ways-illegal-interview-questions-are-rephrased);
+}
+
+#interviewimage{
   background-image: url(http://cdn.skim.gs/images/v1/msi/zvsxn8cy52k2dfj0elhm/sneaky-ways-illegal-interview-questions-are-rephrased);
 }
 
@@ -232,6 +254,19 @@ html {
   font-size:15px;
   font-family: 'Etna';
   padding:.5vmax;
+}
+
+.subimage{
+  background-size:cover;
+  height:50vh;
+  margin:0px;
+  position: relative;
+  background-attachment: fixed;
+  background-position:center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+  min-height:100%;
 }
 
 
