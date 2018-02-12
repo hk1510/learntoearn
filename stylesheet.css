@@ -137,13 +137,12 @@ html {
 }
 
 #buttonImg {
-  display:inline-block;
   -webkit-height:2vmax;
   -webkit-width:2vmax;
   width:2vmax;
   height:2vmax;
-  margin:0px;
-  padding:0px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .backgroundimage{
@@ -325,12 +324,33 @@ hr {
   padding-top:2%;
 }
 
+.linkimage1{
+  height:90%;
+  padding-top:2%;
+}
+
 .imageholder{
   display: inline-block;
   width: 400px;
   height:100px;
   vertical-align: middle;
   border-right: 1px solid black;
+}
+
+.imageholder1{
+  display: inline-block;
+  width: 400px;
+  height:100px;
+  vertical-align: middle;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.imageholder2{
+  display: inline-block;
+  width: 800px;
+  height:500px;
+  vertical-align: middle;
 }
 
 .imageholder:hover{
@@ -340,6 +360,17 @@ hr {
   -o-box-shadow: 6px 6px 10px 6px #888888;
   box-shadow: 6px 6px 10px 6px #888888;
   border-right:none;
+  border-left:none;
+}
+
+.imageholder1:hover{
+  transition-duration: .5s;
+  -moz-box-shadow: 6px 6px 10px 6px #888888;
+  -webkit-box-shadow: 6px 6px 10px 6px #888888;
+  -o-box-shadow: 6px 6px 10px 6px #888888;
+  box-shadow: 6px 6px 10px 6px #888888;
+  border-right:none;
+  border-left:none;
 }
 
 .imagebox{
