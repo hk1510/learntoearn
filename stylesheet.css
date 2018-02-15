@@ -309,9 +309,22 @@ html {
   padding-left : 5%;
 }
 
+.boldparagraph{
+  font-family: 'Archivo Bold';
+  font-size: 2em;
+  padding-left : 5%;
+}
+
 .sub-subtitle{
   font-family: 'Archivo Bold';
   font-size: 3.5em;
+  padding-left: 10%;
+  padding-top: 2%;
+}
+
+.sub-sub-subtitle{
+  font-family: 'Archivo Bold';
+  font-size: 2.5em;
   padding-left: 10%;
   padding-top: 2%;
 }
@@ -354,6 +367,12 @@ hr {
   width: 800px;
   height:500px;
   vertical-align: middle;
+}
+
+.imageholder3{
+  display: inline-block;
+  vertical-align: middle;
+  height:800px;
 }
 
 .imageholder:hover{
