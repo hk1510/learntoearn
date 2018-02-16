@@ -263,10 +263,10 @@ html {
 #footer{
   position:relative;
   background-color:black;
-  height:30px;
   overflow:hidden;
   margin-bottom: 0px;
   margin-top:auto;
+  text-align:center;
 }
 
 #footer p{
@@ -275,6 +275,15 @@ html {
   font-size:15px;
   font-family: 'Etna';
   padding:.5vmax;
+}
+
+#footer i{
+  color:white;
+  font-size: 2em;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top:1%;
+  padding-bottom:1%;
 }
 
 .subimage{
@@ -295,6 +304,7 @@ html {
   margin-right : 10%;
   margin-top: 5%;
   background-color:white;
+  padding-bottom: 5%;
 }
 
 .subtitle{
@@ -373,6 +383,7 @@ hr {
   display: inline-block;
   vertical-align: middle;
   height:800px;
+  padding-left:5%;
 }
 
 .imageholder:hover{
@@ -397,6 +408,10 @@ hr {
 
 .imagebox{
   text-align: center;
+  margin-top: 50px;
+}
+
+.imagebox1{
   margin-top: 50px;
 }
 
