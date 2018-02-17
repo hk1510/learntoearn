@@ -613,6 +613,6 @@ hr {
     }
 
     .subimage{
-      background-size:scroll;
+      background-attachment: scroll;
     }
 }
