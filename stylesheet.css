@@ -296,7 +296,7 @@ html {
   background-repeat: no-repeat;
   text-align: center;
   position: relative;
-  min-width:100%;
+  min-height:100%;
 }
 
 .mainbody{
@@ -606,5 +606,13 @@ hr {
     .plus{
       top:85%;
       font-size:0.75em;
+    }
+
+    .subtopic{
+      padding-top:10%;
+    }
+
+    .subimage{
+      background-size:scroll;
     }
 }
