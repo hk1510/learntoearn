@@ -382,7 +382,8 @@ hr {
 .imageholder3{
   display: inline-block;
   vertical-align: middle;
-  height:800px;
+  width:100%;
+  height:150%;
   padding-left:5%;
 }
 
@@ -413,6 +414,25 @@ hr {
 
 .imagebox1{
   margin-top: 50px;
+}
+
+.paragraph2{
+  font-size: 1em;
+  font-family: 'Archivo Regular';
+  text-align: left;
+  padding-bottom:5%;
+}
+
+.plus{
+  color:white;
+  padding-right: 2%;
+  position:relative;
+  top:80%;
+  text-align: right;
+}
+
+#specialcase{
+  border-right:none;
 }
 
 @media (max-width: 1800px) {
@@ -467,6 +487,15 @@ hr {
     font-size:8em;
   }
 
+  .imageholder3{
+    width:100%;
+    height:150%;
+  }
+
+  #specialcase2{
+    border-right:none;
+  }
+
 
 }
 
@@ -491,10 +520,91 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
+
    .backgroundimage {
         background-attachment: scroll;
     }
     .mainimage {
       background-attachment: scroll;
+    }
+
+    .subtitle{
+      font-size:35px;
+      padding-top:5%;
+
+    }
+
+    .paragraph{
+      font-size:25px;
+
+    }
+
+    .sub-subtitle{
+      font-size:30px;
+
+    }
+
+    .sub-sub-subtitle{
+      font-size: 30px;
+    }
+
+    #footer p{
+      font-size:10px;
+      padding-top:5%;
+    }
+
+    .imagebox{
+      width:100%;
+    }
+
+    .imagebox1{
+      width:100%;
+    }
+
+
+    .imageholder{
+      border-bottom:1px solid black;
+      border-right:none;
+      width:100%;
+      padding-top: 5%;
+    }
+
+    .imageholder1{
+      border-bottom:1px solid black;
+      border-top:1px solid black;
+      border-right:none;
+      border-left:none;
+      width:100%;
+      padding-top: 5%;
+    }
+
+    .imageholder2{
+      border-right:none;
+      width:100%;
+      padding-top: 5%;
+      height:90%;
+    }
+
+    .imageholder3{
+      width:100%;
+      height:200%;
+    }
+
+    .imageholder:hover{
+      border:none;
+    }
+
+    #specialcase{
+      border-right:none;
+      border-bottom:none;
+    }
+
+    .linkimage2{
+      width:100%;
+    }
+
+    .plus{
+      top:85%;
+      font-size:0.75em;
     }
 }
