@@ -1,3 +1,4 @@
+
 * {
   color:black;
 }
@@ -20,10 +21,12 @@
 
 .mainimage {
   background-image: url(Images/Sunset_at_Tiergarten_UHD.jpg);
+
   background-size:cover;
   height:100vh;
   margin:0px;
   position: relative;
+
   background-attachment: fixed;
   background-position:center center;
   background-repeat: no-repeat;
