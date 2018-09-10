@@ -1,29 +1,110 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Learn!</title>
+    <title>Learn to Earn</title>
     <meta charset="UTF-8">
     <meta name="description" content="Learn how to get a job">
     <meta name="keywords" content="HTML,CSS,JavaScript">
     <meta name="author" content="Harshil Kotamreddy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="dist/smoothscroll.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-    <link href="/stylesheet.css" rel=stylesheet>
-    <script>
 
-    </script>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="stylesheet.css" rel="stylesheet">
+    <script src="functions.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon-16x16.png">
+
+
+
   </head>
   <body>
-    <div class = "mainimage">
-      <div class = "overlay">
-        <p id="title"> <span id="_1">LEARN</span><span id="_2">to EARN</span> </p>
-        <div id = "container">
-        <p id="subtitle">Learn Where, When and How to get a job.</p>
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div id = "navbar-styling" class="container-fluid">
+        <div class="navbar-header">
+          <div id = "setStyleBrand">
+            <a class="navbar-brand" href="index.html">LEARN to EARN</a>
+          </div>
+          <div id = "buttonStyle">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
         </div>
-        <button></button>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="nav navbar-nav" id="navul">
+              <li class="active navlink"><a href="index.html">Home</a></li>
+              <li class="navlink"><a href="jobOpenings.html">Job Openings</a></li>
+              <li class="navlink"><a href="resumes.html">Resumes and Cover Letters</a></li>
+              <li class="navlink"><a href="applicationForms.html">Application forms</a></li>
+              <li class="navlink"><a href="whatToWear.html">What to Wear</a></li>
+              <li class="navlink"><a href="interviewTips.html">Interview Tips</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <div class = "mainimage">
+        <p id="title"><span>LEARN TO EARN</span></p>
+          <button type="button" class="btn btn-dark" onmouseover="imghover();" onmouseout="imgunhover();" id="mainButton">
+            <img class="img-responsive" src="Images/arrowDownWhite.png" id="buttonImg"></img>
+          </button>
+
+    </div>
+
+    <div id="secondbackground" class="backgroundimage" style="height:100vh;">
+      <a id="jobOpenings"></a>
+      <h1 class="subtopic" style="color:white;">Job Openings</h1>
+      <a class = "learnlink" href = "jobOpenings.html">Learn More</a>
+      <p class="paragraph2 plus" >Image courtesy of cloudfront.net</p>
+    </div>
+
+    <div id="thirdbackground" class="backgroundimage" style="height:100vh;">
+      <h1 class="subtopic" style="color:black;">Resumes</h1>
+      <a class = "learnlink2"  href = "resumes.html">Learn More</a>
+      <p class="paragraph2 plus" style="color:black;">Image courtesy of mcgeepharma.com</p>
+    </div>
+
+    <div id="fourthbackground" class="backgroundimage" style="height:100vh;">
+      <div class="overlay">
+        <h1 class="subtopic" style="color:black;">Application Forms</h1>
+        <div class="linkdiv"><a class = "learnlink2" href = "applicationForms.html">Learn More</a></div>
+        <p class="paragraph2 plus">Image courtesy of wallpaperscraft.com</p>
       </div>
     </div>
+
+    <div id="fifthbackground" class="backgroundimage" style="height:100vh;">
+      <div class="overlay1">
+        <h1 class="subtopic" style="color:White;">What to Wear</h1>
+        <a class = "learnlink" href = "whatToWear.html">Learn More</a>
+        <p class="paragraph2 plus" >Image courtesy of media.vogue.in</p>
+      </div>
+    </div>
+
+    <div id="sixthbackground" class="backgroundimage" style="height:100vh;">
+      <h1 class="subtopic" style="color:Black;">Interview Tips</h1>
+      <a class = "learnlink2" href = "interviewTips.html">Learn More</a>
+      <p class="paragraph2 plus">Image courtesy of cdn.skim.gs</p>
+    </div>
+
+    <div id=footer>
+
+        <p>Here are some social media websites that you can use to research companies! (and create your professional profile) </p>
+          <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+
+          <p>&copy; 2018 Harshil Kotamreddy. All rights reserved.</p>
+    </div>
+
   </body>
 
 
